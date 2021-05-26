@@ -1,0 +1,22 @@
+.att__root {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+}
+
+.att__headCell {
+    background: #D32F2F;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.att__cell {
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+
+.att__select {
+    padding: 0 10px;
+}

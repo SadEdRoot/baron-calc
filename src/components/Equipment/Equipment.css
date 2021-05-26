@@ -1,0 +1,15 @@
+.equip__header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+    background: #212121;
+    color: #FFFFFF;
+}
