@@ -1,25 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Attributes from "../Attributes/indes";
-import Equipment from "../Equipment";
-import Abilities from "../Abilities";
+import soldersData from "./solders.json"
 
-import s from "./Solder.css"
+import "./Solder.css"
+
 
 const Solder = () => {
+  const [quantity, setQuantity] = useState(3)
+
+  const [id, setId] = useState(0);
+
+  const solData = soldersData.solders;
+
   return (
-    <div  className="solder__root">
+    <div>
       <div>
-        <select name="" id="" className="">
-          <option value="knight">Knights</option>
-          <option value="sergeant">Sergeants</option>
-          <option selected value="coconut">Spearmens</option>
-          <option value="mango">Mango</option>
+        <select onChange={(e) => {setId(e.target.value);}} name="" id="" className="">
+          {solData.map((data) => (
+            <option key={data.id} value={data.id}>{data.name}</option>
+          ))}
         </select>
+        <label htmlFor=""></label>
         <button>remove</button>
       </div>
-      <Attributes />
-      <Equipment />
-      <Abilities />
+      <Attributes dataAtt={solData[id]}/>
     </div>
   );
 };

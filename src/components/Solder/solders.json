@@ -1,0 +1,477 @@
+{
+  "solders": [
+    {
+      "id": 0,
+      "name": "levy",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 9
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "atk-modifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sling",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "improvised two handed weapon",
+                "atk-modifier": -1,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Sorry m'lord"]
+        },
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 12
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "atk-modifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sling",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "improvised two handed weapon",
+                "atk-modifier": -1,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Sorry m'lord"]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "militant monks",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 9
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "atk-modifier": 0,
+                "points": 0
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Faith"]
+        },
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 12
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "atk-modifier": 0,
+                "points": 0
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Faith"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 15
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "atk-modifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sword",
+                "atk-modifier": -1,
+                "points": 3,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "two handed weapon",
+                "atk-modifier": -2,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Faith"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "spearman",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 9
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 0,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": -1,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": []
+        },
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 12
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": -1,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ]
+          },
+          "abilities": []
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 16
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": -1,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 2,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["BRACE!"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 1,
+            "points": 19
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": 0,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": -1,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 2,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["BRACE!"]
+        }
+      ]
+    }
+  ]
+}

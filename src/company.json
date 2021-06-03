@@ -1,0 +1,56 @@
+{
+  "data": {
+    "retinue": {
+      "settings": {
+        "name": "MyRetinue",
+        "points-total": 500,
+        "points-current": 123
+      },
+      "roster": {
+        "commanders": [
+          {
+            "id": 1,
+            "unit": {
+
+            }
+          }
+        ],
+        "solders": [
+          {
+            "id": 1,
+            "unit": {
+              "name": "sergeants",
+              "level": "veteran",
+              "stats": {
+                "movement": 6,
+                "attack": 4,
+                "defence": 7,
+                "morale": 4,
+                "action": 1,
+                "points": 19
+              },
+              "equipment": {
+                "weapon": {
+                  "name": "crossbow",
+                  "atk-modifier": [0, 1]
+                },
+                "armour": {
+                  "name": "mail",
+                  "def-modifier": 2
+                },
+                "shield": {
+
+                },
+                "options": [{
+                  "name": "lance",
+                  "isChecked": true
+                }]
+                },
+              "abilities": ["Every Bloody Sunday"]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
