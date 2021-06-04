@@ -472,6 +472,730 @@
           "abilities": ["BRACE!"]
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "bowmen",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 9
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "bow",
+                "atk-modifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ]
+          },
+          "abilities": []
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 16
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "bow",
+                "atk-modifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              }
+            ]
+          },
+          "abilities": ["Every bloody sunday"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 1,
+            "points": 19
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "bow",
+                "atk-modifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 2,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ]
+          },
+          "abilities": ["Every bloody sunday"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "crossbowmen",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 11
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ]
+          },
+          "abilities": []
+        },
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 14
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              }
+            ]
+          },
+          "abilities": []
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 17
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "leather/padded",
+                "points": 1,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 2,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ]
+          },
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "foot sergeant",
+      "units": [
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 15
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 1,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": 0,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Martial Respect"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 18
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "sword",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 1,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": 0,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Martial Respect"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 1,
+            "points": 21
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "sword",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 1,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "atk-modifier": 0,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Martial Respect"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "mounted sergeant",
+      "isMount": true,
+      "units": [
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 18
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              },
+              {
+                "name": "bow",
+                "atk-modifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "Horse",
+                "points": 0,
+                "move-modifier": 3
+              }
+            ]
+          },
+          "abilities": ["Martial Respect"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 21
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "sword",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              },
+              {
+                "name": "bow",
+                "atk-modifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "Horse",
+                "points": 0,
+                "move-modifier": 3
+              },
+              {
+                "name": "Barded Horse",
+                "points": 2,
+                "move-modifier": 3,
+                "def-modifier": -1
+              }
+            ]
+          },
+          "abilities": ["Martial Respect"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 1,
+            "points": 24
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "sword",
+                "atk-modifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "atk-modifier": 0,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "atk-modifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              },
+              {
+                "name": "bow",
+                "atk-modifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "def-modifier": -1,
+                "move-modifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "move-modifier": -2,
+                "def-modifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "horse",
+                "points": 0,
+                "move-modifier": 3
+              },
+              {
+                "name": "barded horse",
+                "points": 2,
+                "move-modifier": 3,
+                "def-modifier": -1
+              }
+            ]
+          },
+          "abilities": ["Martial Respect"]
+        }
+      ]
     }
   ]
 }

@@ -10,58 +10,48 @@ const Attributes = ({dataAtt}) => {
   const [position, setPosition] = useState(0);
 
   if (!unitsData[position]) {
+    if (position !== 0) {
       setPosition(0);
-      return <></>
+    }
+    return <></>
   };
 
   return (
     <div>
       <div className="att__root">
-        <div>
-          <div className="att__headCell">Experience</div>
-          <div className="att__cell">
-            <select onChange={(e) => {setPosition(e.target.value)}} className="att__select" name="" id="">
-              {unitsData.map((item, index) => (
-                <option key={index} value={index}>{item.experience}</option>
-              ))}
-            </select>
-          </div>
+        <div className="att__headCell">Experience</div>
+        <div className="att__headCell">Movement</div>
+        <div className="att__headCell">Attack</div>
+        <div className="att__headCell">Defence</div>
+        <div className="att__headCell">Morale</div>
+        <div className="att__headCell">Actions</div>
+        <div className="att__headCell">Points</div>
+      </div>
+      <div className="att__root">
+        <div className="att__cell">
+          <select onChange={(e) => {setPosition(e.target.value)}} className="att__select" name="" id="">
+            {unitsData.map((item, index) => (
+              <option key={index} value={index}>{item.experience}</option>
+            ))}
+          </select>
         </div>
-        <div>
-          <div className="att__headCell">Movement</div>
-          <div className="att__cell">
-            {unitsData[position].stats.movement}
-          </div>
+        <div className="att__cell">
+          {unitsData[position].stats.movement}
         </div>
-        <div>
-          <div className="att__headCell">Attack</div>
-          <div className="att__cell">
-            {unitsData[position].stats.attack}+
-          </div>
+        <div className="att__cell">
+          {unitsData[position].stats.attack}+
         </div>
-        <div>
-          <div className="att__headCell">Defence</div>
-          <div className="att__cell">
-            {unitsData[position].stats.defence}+
-          </div>
+        <div className="att__cell">
+          {unitsData[position].stats.defence}+
         </div>
-        <div>
-          <div className="att__headCell">Morale</div>
-          <div className="att__cell">
-            {unitsData[position].stats.morale}+
-          </div>
+        <div className="att__cell">
+          {unitsData[position].stats.morale}+
         </div>
-        <div>
-          <div className="att__headCell">Actions</div>
-          <div className="att__cell">
-            {unitsData[position].stats.action}
-          </div>
+        <div className="att__cell">
+          {unitsData[position].stats.action}
         </div>
-        <div>
-          <div className="att__headCell">Points</div>
-          <div className="att__cell">
-            {unitsData[position].stats.points}
-          </div>
+        <div className="att__cell">
+          {unitsData[position].stats.points}
         </div>
       </div>
       <Equipment data={unitsData[position].equipment}/>
