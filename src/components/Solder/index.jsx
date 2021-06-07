@@ -5,25 +5,30 @@ import soldersData from "./solders.json"
 import "./Solder.css"
 
 
-const Solder = () => {
-  const [quantity, setQuantity] = useState(3)
-
+const Solder = ({remove}) => {
+  const solData = soldersData.solders;
+  const [quantity, setQuantity] = useState(3);
   const [id, setId] = useState(0);
 
-  const solData = soldersData.solders;
+  const checkSolder = (e) => {
+    setId(e.target.value);
+  };
 
   return (
     <div>
       <div>
-        <select onChange={(e) => {setId(e.target.value);}} name="" id="" className="">
+        <select onChange={checkSolder} name="" id="" className="">
           {solData.map((data) => (
             <option key={data.id} value={data.id}>{data.name}</option>
           ))}
         </select>
         <label htmlFor=""></label>
-        <button>remove</button>
+        <button disabled onClick={() => {setQuantity(quantity - 1)}}>-</button>
+        {quantity}
+        <button onClick={() => {setQuantity(quantity + 1)}}>+</button>
+        <button onClick={remove}>remove</button>
       </div>
-      <Attributes dataAtt={solData[id]}/>
+      <Attributes dataAtt={solData[id]} quantity={quantity}/>
     </div>
   );
 };

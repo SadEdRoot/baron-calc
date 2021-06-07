@@ -1,7 +1,5 @@
 import React from 'react';
 import Attributes from "../Attributes/indes";
-import Equipment from "../Equipment";
-import Abilities from "../Abilities";
 
 import './Commander.css'
 

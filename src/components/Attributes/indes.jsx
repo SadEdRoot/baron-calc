@@ -1,13 +1,21 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Attributes.css'
 import Equipment from "../Equipment";
 import Abilities from "../Abilities";
+import {useDispatch} from "react-redux";
 
-
-const Attributes = ({dataAtt}) => {
+const Attributes = ({dataAtt, quantity = 1}) => {
   const unitsData = dataAtt.units
+  const dispatch = useDispatch();
 
   const [position, setPosition] = useState(0);
+
+  useEffect(()=> {
+    if (unitsData[position]) {
+      const sum =unitsData[position].stats.points * quantity
+    }
+    }, [dataAtt, quantity]
+  )
 
   if (!unitsData[position]) {
     if (position !== 0) {
@@ -57,7 +65,6 @@ const Attributes = ({dataAtt}) => {
       <Equipment data={unitsData[position].equipment}/>
       <Abilities data={unitsData[position].abilities}/>
     </div>
-
 
   );
 };

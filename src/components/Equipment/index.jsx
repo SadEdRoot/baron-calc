@@ -13,11 +13,10 @@ const Equipment = ({data}) => {
           <div className="table__header">Cost per warrior</div>
           <div className="table__header">Modifier</div>
           <div className="table__header">Effect</div>
-
         </div>
       {
-        Object.entries(data).map((item) => (
-          <TableItem data={item}/>
+        Object.entries(data).map((item, index) => (
+          <TableItem key={index} data={item}/>
         ))
       }
     </div>
