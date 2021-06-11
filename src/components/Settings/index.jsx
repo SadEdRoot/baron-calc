@@ -12,15 +12,20 @@ const Settings = () => {
   return (
     <div className="commander__root">
       <div className="commander__header">Retinue settings</div>
-      <div style={{"display": "flex"}}>
+      <div className="retinueSett">
+        <div>
           <label htmlFor="ret_name">Retinue name: </label>
           <input id="ret_name" type="text" placeholder="Get name for you Retinue"/>
+        </div>
+        <div>
           <label htmlFor="ret_points">Points: </label>
           <input type="number" onChange={(e) =>{
             dispatch(setStartPoints(e.target.value))
           }} value={startPoint}/>
-          Points remain: {currentPoints}
         </div>
+
+        Points remain: {currentPoints}
+      </div>
     </div>
   );
 };

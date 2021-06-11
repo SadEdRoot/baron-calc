@@ -26,3 +26,9 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.retinueSett {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

@@ -30,7 +30,7 @@ const Solders = () => {
           key={id} unitId={id} remove={() => onRemove(id)}
         />
       ))}
-      <button onClick={addSolder}>add solders group </button>
+      <button className="soldersButton" onClick={addSolder}>add solders group </button>
     </div>
   );
 };

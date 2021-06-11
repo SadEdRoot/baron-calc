@@ -16,7 +16,15 @@
     padding-top: 7px;
 }
 
+@media (max-width: 768px) {
+    .att__headCell {
+        font-size: 14px;
+        overflow: hidden;
+    }
+}
+
 
 .att__select {
     padding: 0 10px;
+    width: 100%;
 }

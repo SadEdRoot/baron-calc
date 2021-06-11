@@ -26,7 +26,7 @@ const TableItem = ({data}) => {
         </select>
       </div>
       <div  className="att__cell">{itemOptions[position].points}</div>
-      <div  className="att__cell">{itemOptions[position]["atk-modifier"]}</div>
+      <div  className="att__cell">{itemOptions[position].attModifier}</div>
       <div  className="att__cell">{itemOptions[position].effect}</div>
     </div>
   );
