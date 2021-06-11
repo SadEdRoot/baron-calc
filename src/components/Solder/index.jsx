@@ -5,7 +5,7 @@ import soldersData from "./solders.json"
 import "./Solder.css"
 
 
-const Solder = ({remove}) => {
+const Solder = ({unitId, remove}) => {
   const solData = soldersData.solders;
   const [quantity, setQuantity] = useState(3);
   const [id, setId] = useState(0);
@@ -23,12 +23,12 @@ const Solder = ({remove}) => {
           ))}
         </select>
         <label htmlFor=""></label>
-        <button disabled onClick={() => {setQuantity(quantity - 1)}}>-</button>
+        <button onClick={() => {setQuantity(quantity - 1)}}>-</button>
         {quantity}
         <button onClick={() => {setQuantity(quantity + 1)}}>+</button>
         <button onClick={remove}>remove</button>
       </div>
-      <Attributes dataAtt={solData[id]} quantity={quantity}/>
+      <Attributes unitId={unitId} dataAtt={solData[id]} quantity={quantity}/>
     </div>
   );
 };

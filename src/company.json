@@ -32,11 +32,11 @@
               "equipment": {
                 "weapon": {
                   "name": "crossbow",
-                  "atk-modifier": [0, 1]
+                  "attModifier": [0, 1]
                 },
                 "armour": {
                   "name": "mail",
-                  "def-modifier": 2
+                  "defModifier": 2
                 },
                 "shield": {
 

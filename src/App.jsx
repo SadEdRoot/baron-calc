@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './App.css';
 import Solders from "./layouts/Solders/Solders";
 import Commander from "./components/Commander";
 import Settings from "./components/Settings";
+import {useDispatch, useSelector} from "react-redux";
+import {setCurPoints} from "./store/pointSlice";
 
 function App() {
+  /*
   const company = {
     settings: {
       name: '',
@@ -107,6 +110,24 @@ function App() {
       }
     ]
   }
+  */
+
+  const getStartPoints = useSelector((state) => state.point.startPoint);
+  const getSolders = useSelector(state => state.solders)
+  const dispatch = useDispatch();
+
+  const calcPoints = () => {
+    const sum = getSolders.reduce((acc, item) => {
+      if (item.unit) {
+        acc += item.unit.sum;
+      }
+
+      return acc
+    }, 0);
+    dispatch(setCurPoints(getStartPoints - sum))
+  }
+
+  useEffect(calcPoints, [getSolders, getStartPoints])
 
   return (
     <div className="App">

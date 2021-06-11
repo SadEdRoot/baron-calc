@@ -3,18 +3,26 @@ import './Attributes.css'
 import Equipment from "../Equipment";
 import Abilities from "../Abilities";
 import {useDispatch} from "react-redux";
+import {setSolderUnit} from "../../store/soldersArr";
 
-const Attributes = ({dataAtt, quantity = 1}) => {
-  const unitsData = dataAtt.units
+const Attributes = ({unitId, dataAtt, quantity = 1}) => {
+  const unitsData = dataAtt.units;
   const dispatch = useDispatch();
 
   const [position, setPosition] = useState(0);
 
   useEffect(()=> {
     if (unitsData[position]) {
-      const sum =unitsData[position].stats.points * quantity
+      const unit = {
+        name: dataAtt.name,
+        quantity: quantity,
+        sumWeapon: 0,
+        sumAbilities: 0,
+        sum: unitsData[position].stats.points * quantity,
+      }
+      dispatch(setSolderUnit({unit, unitId}));
     }
-    }, [dataAtt, quantity]
+    }, [dataAtt, quantity, position]
   )
 
   if (!unitsData[position]) {

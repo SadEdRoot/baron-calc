@@ -20,7 +20,6 @@ const Solders = () => {
     dispatch(setSolder({id: counter}))
     setSolders([...solder, {id: counter}]);
     setCounter(counter + 1);
-    console.log(startSolder)
   }
 
   return (
@@ -28,7 +27,7 @@ const Solders = () => {
       <div className="commander__header">Solders</div>
       {solder.map(({id}, index) => (
         <Solder
-          key={id} remove={() => onRemove(id)}
+          key={id} unitId={id} remove={() => onRemove(id)}
         />
       ))}
       <button onClick={addSolder}>add solders group </button>

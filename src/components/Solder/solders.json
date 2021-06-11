@@ -18,24 +18,24 @@
             "weapon": [
               {
                 "name": "hand weapon",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0
               },
               {
                 "name": "sling",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "improvised two handed weapon",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 3,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
@@ -68,24 +68,24 @@
             "weapon": [
               {
                 "name": "hand weapon",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0
               },
               {
                 "name": "sling",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "improvised two handed weapon",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 3,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
@@ -124,12 +124,12 @@
             "weapon": [
               {
                 "name": "hand weapon",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               }
@@ -162,12 +162,12 @@
             "weapon": [
               {
                 "name": "hand weapon",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               }
@@ -200,24 +200,24 @@
             "weapon": [
               {
                 "name": "hand weapon",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 3,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 1,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "two handed weapon",
-                "atk-modifier": -2,
+                "attModifier": -2,
                 "points": 3,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
@@ -261,13 +261,13 @@
             "weapon": [
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               }
@@ -300,13 +300,13 @@
             "weapon": [
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               }
@@ -319,8 +319,8 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               }
             ],
@@ -357,13 +357,13 @@
             "weapon": [
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               }
@@ -376,15 +376,15 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 2,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -421,13 +421,13 @@
             "weapon": [
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 0,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               }
@@ -440,15 +440,15 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 2,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -491,7 +491,7 @@
             "weapon": [
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -513,7 +513,7 @@
             "weapon": [
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -526,8 +526,8 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               }
             ]
@@ -548,7 +548,7 @@
             "weapon": [
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -561,15 +561,15 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 2,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ]
@@ -596,7 +596,7 @@
             "weapon": [
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               }
@@ -618,7 +618,7 @@
             "weapon": [
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               }
@@ -631,8 +631,8 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               }
             ]
@@ -653,7 +653,7 @@
             "weapon": [
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               }
@@ -666,15 +666,15 @@
               {
                 "name": "leather/padded",
                 "points": 1,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 2,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ]
@@ -701,31 +701,31 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "spear",
-                "atk-modifier": 1,
+                "attModifier": 1,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               }
@@ -734,8 +734,8 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               }
             ],
@@ -767,37 +767,37 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 1,
+                "attModifier": 1,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               }
@@ -806,15 +806,15 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -851,37 +851,37 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 1,
+                "attModifier": 1,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "bill",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": 2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               }
@@ -890,15 +890,15 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -942,31 +942,31 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               },
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -975,8 +975,8 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               }
             ],
@@ -995,7 +995,7 @@
               {
                 "name": "Horse",
                 "points": 0,
-                "move-modifier": 3
+                "moveModifier": 3
               }
             ]
           },
@@ -1015,37 +1015,37 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               },
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -1054,15 +1054,15 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1086,13 +1086,13 @@
               {
                 "name": "Horse",
                 "points": 0,
-                "move-modifier": 3
+                "moveModifier": 3
               },
               {
                 "name": "Barded Horse",
                 "points": 2,
-                "move-modifier": 3,
-                "def-modifier": -1
+                "moveModifier": 3,
+                "defModifier": -1
               }
             ]
           },
@@ -1112,37 +1112,37 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               },
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -1151,15 +1151,15 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1183,13 +1183,13 @@
               {
                 "name": "horse",
                 "points": 0,
-                "move-modifier": 3
+                "moveModifier": 3
               },
               {
                 "name": "barded horse",
                 "points": 2,
-                "move-modifier": 3,
-                "def-modifier": -1
+                "moveModifier": 3,
+                "defModifier": -1
               }
             ]
           },
@@ -1215,25 +1215,25 @@
             "weapon": [
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": -1,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": -1,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "two handed weapon",
-                "atk-modifier": -2,
+                "attModifier": -2,
                 "points": 3,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
@@ -1242,8 +1242,8 @@
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1280,25 +1280,25 @@
             "weapon": [
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": -1,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": -1,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "two handed weapon",
-                "atk-modifier": -2,
+                "attModifier": -2,
                 "points": 3,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
@@ -1307,8 +1307,8 @@
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1345,25 +1345,25 @@
             "weapon": [
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": -1,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": -1,
                 "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "two handed weapon",
-                "atk-modifier": -2,
+                "attModifier": -2,
                 "points": 3,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
@@ -1372,8 +1372,8 @@
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1417,31 +1417,31 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               },
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -1450,8 +1450,8 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               }
             ],
@@ -1470,7 +1470,7 @@
               {
                 "name": "Horse",
                 "points": 0,
-                "move-modifier": 3
+                "moveModifier": 3
               }
             ]
           },
@@ -1490,37 +1490,37 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               },
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -1529,15 +1529,15 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1561,13 +1561,13 @@
               {
                 "name": "Horse",
                 "points": 0,
-                "move-modifier": 3
+                "moveModifier": 3
               },
               {
                 "name": "Barded Horse",
                 "points": 2,
-                "move-modifier": 3,
-                "def-modifier": -1
+                "moveModifier": 3,
+                "defModifier": -1
               }
             ]
           },
@@ -1587,37 +1587,37 @@
             "weapon": [
               {
                 "name": "falchion",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
                 "name": "mace",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "sword",
-                "atk-modifier": -1,
+                "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
                 "name": "spear",
-                "atk-modifier": 0,
+                "attModifier": 0,
                 "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
                 "name": "crossbow",
-                "atk-modifier": [0, -1],
+                "attModifier": [0, -1],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
               },
               {
                 "name": "bow",
-                "atk-modifier": [1, 0],
+                "attModifier": [1, 0],
                 "points": 0,
                 "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
               }
@@ -1626,15 +1626,15 @@
               {
                 "name": "leather/padded",
                 "points": 0,
-                "def-modifier": -1,
-                "move-modifier": -1,
+                "defModifier": -1,
+                "moveModifier": -1,
                 "effect": "-1 Movement"
               },
               {
                 "name": "mail",
                 "points": 1,
-                "move-modifier": -2,
-                "def-modifier": -2,
+                "moveModifier": -2,
+                "defModifier": -2,
                 "effect": "-2 Movement"
               }
             ],
@@ -1658,18 +1658,18 @@
               {
                 "name": "barded horse",
                 "points": 0,
-                "move-modifier": 3,
-                "def-modifier": -1
+                "moveModifier": 3,
+                "defModifier": -1
               },
               {
                 "name": "horse",
                 "points": -3,
-                "move-modifier": 3
+                "moveModifier": 3
               },
               {
                 "name": "barded warhorse",
                 "points": 13,
-                "move-modifier": 2
+                "moveModifier": 2
               }
             ]
           },

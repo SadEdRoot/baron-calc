@@ -9,11 +9,14 @@ export const pointSlice = createSlice({
   reducers: {
     setStartPoints: (state, action) => {
       state.startPoint = Number(action.payload);
+    },
+    setCurPoints: (state, action) => {
+      state.currentPoint = Number(action.payload);
     }
   }
 })
 
 
-export const { setStartPoints } = pointSlice.actions
+export const { setStartPoints, setCurPoints } = pointSlice.actions
 
 export default pointSlice.reducer

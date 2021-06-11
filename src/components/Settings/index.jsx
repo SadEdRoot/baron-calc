@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {setStartPoints} from "../../store/pointSlice";
 
@@ -9,7 +9,6 @@ const Settings = () => {
 
   const dispatch = useDispatch()
 
-
   return (
     <div className="commander__root">
       <div className="commander__header">Retinue settings</div>
@@ -19,7 +18,6 @@ const Settings = () => {
           <label htmlFor="ret_points">Points: </label>
           <input type="number" onChange={(e) =>{
             dispatch(setStartPoints(e.target.value))
-            //* TODO: проверка на изменение стейта после изменения калькуляции не должно допускаться перезаписи.*/
           }} value={startPoint}/>
           Points remain: {currentPoints}
         </div>
