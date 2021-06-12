@@ -127,7 +127,7 @@ function App() {
     dispatch(setCurPoints(getStartPoints - sum))
   }
 
-  useEffect(calcPoints, [getSolders, getStartPoints])
+  useEffect(calcPoints, [getSolders, getStartPoints, dispatch])
 
   return (
     <div className="App">

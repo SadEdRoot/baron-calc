@@ -5,6 +5,7 @@ import soldersSlice from "./soldersArr";
 export default configureStore({
   reducer: {
     point: pointSlice,
-    solders: soldersSlice
+    solders: soldersSlice,
+
   },
 })

@@ -1,6 +1,7 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {setStartPoints} from "../../store/pointSlice";
+import './settings.css'
 
 
 const Settings = () => {
@@ -10,7 +11,7 @@ const Settings = () => {
   const dispatch = useDispatch()
 
   return (
-    <div className="commander__root">
+    <div className={"commander__root header_sticky"}>
       <div className="commander__header">Retinue settings</div>
       <div className="retinueSett">
         <div>

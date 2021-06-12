@@ -19,6 +19,7 @@ const Attributes = ({unitId, dataAtt, quantity = 1}) => {
         sumWeapon: 0,
         sumAbilities: 0,
         sum: unitsData[position].stats.points * quantity,
+        data: unitsData[position],
       }
       dispatch(setSolderUnit({unit, unitId}));
     }
@@ -70,7 +71,7 @@ const Attributes = ({unitId, dataAtt, quantity = 1}) => {
           {unitsData[position].stats.points}
         </div>
       </div>
-      <Equipment data={unitsData[position].equipment}/>
+      <Equipment unitId={unitId} data={unitsData[position].equipment} />
       <Abilities data={unitsData[position].abilities}/>
     </div>
 

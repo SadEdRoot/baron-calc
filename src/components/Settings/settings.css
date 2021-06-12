@@ -1,0 +1,6 @@
+.header_sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: #f6ce55;
+}
