@@ -8,8 +8,8 @@ export const soldersSlice = createSlice({
       state = [...state, action.payload],
     removeSolderId: (state, action) =>
       state = state.filter((el) => el.id !== action.payload),
-    setSolderUnit: (state, action) =>
-      void(state[action.payload.unitId].unit = action.payload.unit),
+    setSolderUnit: (state, action) => {
+      void(state[state.findIndex((el) => el.id === action.payload.unitId)].unit = action.payload.unit)},
     setSolderData: (state, action) =>
       void(state[action.payload.unitId].unit.data.equipment = action.payload.data),
   }

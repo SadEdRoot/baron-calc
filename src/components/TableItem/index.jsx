@@ -7,19 +7,14 @@ import React, {useEffect, useState} from 'react';
 const TableItem = ({data, onChange}) => {
   const name = data[0];
   const itemOptions = data[1];
-
   const [position, setPosition] = useState(0);
 
-  useEffect(()=>{
-    console.log("Срабатывает обновление выбранной позиции");
-    const tempObj = {};
-    tempObj[name]= itemOptions[position];
-    onChange(tempObj);
-  }, [position]);
 
-  useEffect(()=>{
-    console.log("Срабатывает обновление пропсов");
-  }, [itemOptions]);
+  useEffect(() => {
+    onChange(name, position);
+  }, [position])
+
+
 
   if (!itemOptions[position]) {
     if (position !== 0) {
@@ -45,4 +40,4 @@ const TableItem = ({data, onChange}) => {
   );
 };
 
-export default TableItem;
+export default React.memo(TableItem);
