@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/baron-calc/static/css/main.9e85766a.chunk.css",
-    "main.js": "/baron-calc/static/js/main.8b17ac1a.chunk.js",
-    "main.js.map": "/baron-calc/static/js/main.8b17ac1a.chunk.js.map",
+    "main.css": "/baron-calc/static/css/main.70dd86eb.chunk.css",
+    "main.js": "/baron-calc/static/js/main.619af735.chunk.js",
+    "main.js.map": "/baron-calc/static/js/main.619af735.chunk.js.map",
     "runtime-main.js": "/baron-calc/static/js/runtime-main.8d1e1381.js",
     "runtime-main.js.map": "/baron-calc/static/js/runtime-main.8d1e1381.js.map",
-    "static/js/2.d074a77a.chunk.js": "/baron-calc/static/js/2.d074a77a.chunk.js",
-    "static/js/2.d074a77a.chunk.js.map": "/baron-calc/static/js/2.d074a77a.chunk.js.map",
+    "static/js/2.44e9092e.chunk.js": "/baron-calc/static/js/2.44e9092e.chunk.js",
+    "static/js/2.44e9092e.chunk.js.map": "/baron-calc/static/js/2.44e9092e.chunk.js.map",
     "index.html": "/baron-calc/index.html",
-    "static/css/main.9e85766a.chunk.css.map": "/baron-calc/static/css/main.9e85766a.chunk.css.map",
-    "static/js/2.d074a77a.chunk.js.LICENSE.txt": "/baron-calc/static/js/2.d074a77a.chunk.js.LICENSE.txt"
+    "static/css/main.70dd86eb.chunk.css.map": "/baron-calc/static/css/main.70dd86eb.chunk.css.map",
+    "static/js/2.44e9092e.chunk.js.LICENSE.txt": "/baron-calc/static/js/2.44e9092e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8d1e1381.js",
-    "static/js/2.d074a77a.chunk.js",
-    "static/css/main.9e85766a.chunk.css",
-    "static/js/main.8b17ac1a.chunk.js"
+    "static/js/2.44e9092e.chunk.js",
+    "static/css/main.70dd86eb.chunk.css",
+    "static/js/main.619af735.chunk.js"
   ]
 }
