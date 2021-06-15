@@ -1,7 +1,1234 @@
 {
   "commander": [
     {
-
+      "id": 0,
+      "name": "baron",
+      "units": [
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 40
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "two handed weapon",
+                "attModifier": -2,
+                "points": 0,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              },
+              {
+                "name": "leather/padded",
+                "points": -1,
+                "moveModifier": -1,
+                "defModifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Chivalry"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 3,
+            "points": 44
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "two handed weapon",
+                "attModifier": -2,
+                "points": 0,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              },
+              {
+                "name": "leather/padded",
+                "points": -1,
+                "moveModifier": -1,
+                "defModifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Chivalry", "Live by the Sword"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 4,
+            "defence": 7,
+            "morale": 2,
+            "action": 3,
+            "points": 47
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "two handed weapon",
+                "attModifier": -2,
+                "points": 0,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              },
+              {
+                "name": "leather/padded",
+                "points": -1,
+                "moveModifier": -1,
+                "defModifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Commander", "Inspire","Chivalry", "Live by the Sword"]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "mounted baron",
+      "units": [
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 18
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              }
+            ]
+          },
+          "abilities": ["Chivalry"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 21
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              },
+              {
+                "name": "barded warhorse",
+                "points": 13,
+                "moveModifier": 2,
+                "defModifier": -1,
+                "effect": "+1 Attack dice, requires 2 damage to cause a casualty, Over Charge."
+              }
+            ]
+          },
+          "abilities": ["Chivalry", "Live by the Sword"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 1,
+            "points": 27
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              },
+              {
+                "name": "barded warhorse",
+                "points": 13,
+                "moveModifier": 2,
+                "defModifier": -1,
+                "effect": "+1 Attack dice, requires 2 damage to cause a casualty, Over Charge."
+              }
+            ]
+          },
+          "abilities": ["Chivalry", "Live by the Sword"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "lord",
+      "units": [
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 2,
+            "points": 40
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "two handed weapon",
+                "attModifier": -2,
+                "points": 0,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              },
+              {
+                "name": "leather/padded",
+                "points": -1,
+                "moveModifier": -1,
+                "defModifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Chivalry"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 3,
+            "points": 44
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "two handed weapon",
+                "attModifier": -2,
+                "points": 0,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              },
+              {
+                "name": "leather/padded",
+                "points": -1,
+                "moveModifier": -1,
+                "defModifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Chivalry", "Live by the Sword"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 4,
+            "defence": 7,
+            "morale": 2,
+            "action": 3,
+            "points": 47
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "two handed weapon",
+                "attModifier": -2,
+                "points": 0,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              },
+              {
+                "name": "leather/padded",
+                "points": -1,
+                "moveModifier": -1,
+                "defModifier": -1,
+                "effect": "-1 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Commander", "Inspire","Chivalry", "Live by the Sword"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "mounted lord",
+      "units": [
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 18
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              }
+            ]
+          },
+          "abilities": ["Chivalry"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 21
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              },
+              {
+                "name": "barded warhorse",
+                "points": 13,
+                "moveModifier": 2,
+                "defModifier": -1,
+                "effect": "+1 Attack dice, requires 2 damage to cause a casualty, Over Charge."
+              }
+            ]
+          },
+          "abilities": ["Chivalry", "Live by the Sword"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 1,
+            "points": 27
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              },
+              {
+                "name": "barded warhorse",
+                "points": 13,
+                "moveModifier": 2,
+                "defModifier": -1,
+                "effect": "+1 Attack dice, requires 2 damage to cause a casualty, Over Charge."
+              }
+            ]
+          },
+          "abilities": ["Chivalry", "Live by the Sword"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "veteran sergeant",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 9
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "attModifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sling",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+              },
+              {
+                "name": "spear",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "improvised two handed weapon",
+                "attModifier": -1,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Sorry m'lord"]
+        },
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 12
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "attModifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sling",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+              },
+              {
+                "name": "spear",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "improvised two handed weapon",
+                "attModifier": -1,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Sorry m'lord"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "mounted veteran sergeant",
+      "units": [
+        {
+          "experience": "green",
+          "stats": {
+            "movement": 6,
+            "attack": 8,
+            "defence": 7,
+            "morale": 6,
+            "action": 1,
+            "points": 9
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "attModifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sling",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+              },
+              {
+                "name": "spear",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "improvised two handed weapon",
+                "attModifier": -1,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Sorry m'lord"]
+        },
+        {
+          "experience": "irregular",
+          "stats": {
+            "movement": 6,
+            "attack": 7,
+            "defence": 7,
+            "morale": 5,
+            "action": 1,
+            "points": 12
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "hand weapon",
+                "attModifier": 0,
+                "points": 0
+              },
+              {
+                "name": "sling",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+              },
+              {
+                "name": "spear",
+                "attModifier": 0,
+                "points": 1,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "improvised two handed weapon",
+                "attModifier": -1,
+                "points": 3,
+                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "small shield",
+                "points": 2,
+                "effect": "9+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Sorry m'lord"]
+        }
+      ]
     }
   ]
 }

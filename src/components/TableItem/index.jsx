@@ -14,8 +14,6 @@ const TableItem = ({data, onChange}) => {
     onChange(name, position);
   }, [position])
 
-
-
   if (!itemOptions[position]) {
     if (position !== 0) {
       setPosition(0);
@@ -27,17 +25,17 @@ const TableItem = ({data, onChange}) => {
     <div className="equip__table">
       <span className="att__cell">{name}</span>
       <div className="att__cell">
-        <select onChange={(e) => setPosition(e.target.value)} className="att__select" name="" id="">
+        <select value={position} onChange={(e) => setPosition(e.target.value)} className="att__select" name="" id="">
           {itemOptions.map((item, index) => (
             <option key={index} value={index}>{item.name}</option>
           ))}
         </select>
       </div>
       <div  className="att__cell">{itemOptions[position].points}</div>
-      <div  className="att__cell">{itemOptions[position].attModifier}</div>
+      <div  className="att__cell">{itemOptions[position].attModifier ? itemOptions[position].attModifier + " Attack" : itemOptions[position].defModifier}</div>
       <div  className="att__cell">{itemOptions[position].effect}</div>
     </div>
   );
 };
 
-export default React.memo(TableItem);
+export default TableItem;

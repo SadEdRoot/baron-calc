@@ -1234,7 +1234,7 @@
               {
                 "name": "two handed weapon",
                 "attModifier": -2,
-                "points": 3,
+                "points": 0,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
             ],
@@ -1299,7 +1299,7 @@
               {
                 "name": "two handed weapon",
                 "attModifier": -2,
-                "points": 3,
+                "points": 0,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
             ],
@@ -1364,7 +1364,7 @@
               {
                 "name": "two handed weapon",
                 "attModifier": -2,
-                "points": 3,
+                "points": 0,
                 "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
               }
             ],
@@ -1416,126 +1416,40 @@
           "equipment": {
             "weapon": [
               {
-                "name": "falchion",
-                "attModifier": -1,
-                "points": 0,
-                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
-              },
-              {
-                "name": "mace",
-                "attModifier": -1,
-                "points": 0,
-                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
-              },
-              {
-                "name": "spear",
-                "attModifier": 0,
-                "points": -2,
-                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
-              },
-              {
-                "name": "crossbow",
-                "attModifier": [0, -1],
-                "points": 0,
-                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
-              },
-              {
-                "name": "bow",
-                "attModifier": [1, 0],
-                "points": 0,
-                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
-              }
-            ],
-            "armour": [
-              {
-                "name": "leather/padded",
-                "points": 0,
-                "defModifier": -1,
-                "moveModifier": -1,
-                "effect": "-1 Movement"
-              }
-            ],
-            "shield": [
-              {
-                "name": "none",
-                "points": 0
-              },
-              {
-                "name": "medium shield",
-                "points": 3,
-                "effect": "8+ Shield roll"
-              }
-            ],
-            "horse": [
-              {
-                "name": "Horse",
-                "points": 0,
-                "moveModifier": 3
-              }
-            ]
-          },
-          "abilities": ["Chivalry"]
-        },
-        {
-          "experience": "regular",
-          "stats": {
-            "movement": 6,
-            "attack": 6,
-            "defence": 7,
-            "morale": 4,
-            "action": 1,
-            "points": 21
-          },
-          "equipment": {
-            "weapon": [
-              {
-                "name": "falchion",
-                "attModifier": -1,
-                "points": 0,
-                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
-              },
-              {
-                "name": "mace",
-                "attModifier": -1,
-                "points": 0,
-                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
-              },
-              {
                 "name": "sword",
                 "attModifier": -1,
                 "points": 0,
                 "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
               },
               {
-                "name": "spear",
-                "attModifier": 0,
-                "points": -2,
-                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
-                "name": "crossbow",
-                "attModifier": [0, -1],
-                "points": 0,
-                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
               },
               {
-                "name": "bow",
-                "attModifier": [1, 0],
-                "points": 0,
-                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
               }
             ],
             "armour": [
               {
-                "name": "leather/padded",
-                "points": 0,
-                "defModifier": -1,
-                "moveModifier": -1,
-                "effect": "-1 Movement"
-              },
-              {
                 "name": "mail",
-                "points": 1,
+                "points": 0,
                 "moveModifier": -2,
                 "defModifier": -2,
                 "effect": "-2 Movement"
@@ -1559,15 +1473,106 @@
             ],
             "horse": [
               {
-                "name": "Horse",
+                "name": "barded horse",
                 "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
+                "moveModifier": 3
+              }
+            ]
+          },
+          "abilities": ["Chivalry"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 1,
+            "points": 21
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "horseman's pick",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "PIERCING"
+              },
+              {
+                "name": "Lance and sword",
+                "attModifier": [-2, -1],
+                "points": 4,
+                "effect": "Lance/sword."
+              }
+            ],
+            "armour": [
+              {
+                "name": "mail",
+                "points": 0,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "barded horse",
+                "points": 0,
+                "moveModifier": 3,
+                "defModifier": -1
+              },
+              {
+                "name": "horse",
+                "points": -3,
                 "moveModifier": 3
               },
               {
-                "name": "Barded Horse",
-                "points": 2,
-                "moveModifier": 3,
-                "defModifier": -1
+                "name": "barded warhorse",
+                "points": 13,
+                "moveModifier": 2,
+                "defModifier": -1,
+                "effect": "+1 Attack dice, requires 2 damage to cause a casualty, Over Charge."
               }
             ]
           },

@@ -7,13 +7,6 @@ import Abilities from "../Abilities";
 const Attributes = ({levelId, setEquipment, handleChange, dataAtt}) => {
   const unitsData = dataAtt.units;
 
-  if (!unitsData[levelId]) {
-    if (levelId !== 0) {
-      handleChange(0);
-    }
-    return <></>
-  };
-
   return (
     <div>
       <div className="att__root">
@@ -27,7 +20,7 @@ const Attributes = ({levelId, setEquipment, handleChange, dataAtt}) => {
       </div>
       <div className="att__root">
         <div className="att__cell">
-          <select onChange={(e) => handleChange(e.target.value)} className="att__select" name="" id="">
+          <select value={levelId} onChange={(e) => handleChange(e.target.value)} className="att__select" name="" id="">
             {unitsData.map((item, index) => (
               <option key={index} value={index}>{item.experience}</option>
             ))}
@@ -52,7 +45,7 @@ const Attributes = ({levelId, setEquipment, handleChange, dataAtt}) => {
           {unitsData[levelId].stats.points}
         </div>
       </div>
-      <Equipment setEquipment={setEquipment} data={unitsData[levelId].equipment} />
+      <Equipment setEquipment={setEquipment} levelId={levelId} data={unitsData[levelId].equipment} />
       <Abilities data={unitsData[levelId].abilities}/>
     </div>
 

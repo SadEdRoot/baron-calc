@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Equipment.css'
 import TableItem from "../TableItem";
 
-const Equipment = ({setEquipment, data}) => {
+const Equipment = ({setEquipment, data, levelId}) => {
   return (
     <div>
       <div className="equip__header">Equipment</div>
@@ -14,8 +14,8 @@ const Equipment = ({setEquipment, data}) => {
           <div className="table__header">Effect</div>
         </div>
       {
-        Object.entries(data).map((item, index) => (
-          <TableItem key={index} data={item} onChange={setEquipment}/>
+        Object.entries(data).map((item) => (
+          <TableItem key={[item, levelId]} data={item} onChange={setEquipment}/>
         ))
       }
     </div>

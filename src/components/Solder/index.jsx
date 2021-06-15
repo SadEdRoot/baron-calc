@@ -26,13 +26,39 @@ const Solder = ({unitId, remove}) => {
     abilities: solData[id].units[levelId].abilities,
   });
 
-  const checkSolder = (e) => {
-    setId(e.target.value);
-    setLevelId(0);
-  };
+  useEffect(()=>{
+    setUnitData({
+      id: solData[id].id,
+      name: solData[id].name,
+      quantity: quantity,
+      experience: solData[id].units[levelId].experience,
+      stats: solData[id].units[levelId].stats,
+      equipment: Object.entries(solData[id].units[levelId].equipment).reduce((acc, item,) => {
+        const name = item[0];
+        acc[name] = item[1][0];
+        return acc;
+      }, {}),
+      abilities: solData[id].units[levelId].abilities,
+    })
+  }, [id]);
 
   useEffect(() => {
-    setUnitData({...unitData, quantity})
+    setUnitData({
+      ...unitData,
+      experience: solData[id].units[levelId].experience,
+      stats: solData[id].units[levelId].stats,
+      equipment: Object.entries(solData[id].units[levelId].equipment).reduce((acc, item,) => {
+        const name = item[0];
+        acc[name] = item[1][0];
+        return acc;
+      }, {}),
+      abilities: solData[id].units[levelId].abilities,
+    });
+  }, [levelId]);
+
+  useEffect(() => {
+    setUnitData({...unitData, quantity});
+    //TODO: добавить проверки количества не меньше 3 для пехоты и не меньше 2 для кав.
   }, [quantity]);
 
   useEffect(() => {
@@ -45,8 +71,12 @@ const Solder = ({unitId, remove}) => {
     const unit = {...unitData};
     unit.sum = sum;
     dispatch(setSolderUnit({unit, unitId}));
-  }, [unitData])
+  }, [unitData]);
 
+  const checkSolder = (e) => {
+    setId(e.target.value);
+    setLevelId(0);
+  };
 
   const setEquipment = (weaponType, weaponId) => {
     const wtObj = {}
