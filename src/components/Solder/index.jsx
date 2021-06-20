@@ -11,6 +11,8 @@ const Solder = ({unitId, remove}) => {
   const [quantity, setQuantity] = useState(3);
   const [id, setId] = useState(0);
   const [levelId, setLevelId] = useState(0);
+  const [enabled,setEnabled] = useState(true);
+  const [unitSum, setUnitSum] = useState(0);
   const dispatch = useDispatch();
   const [unitData, setUnitData] = useState({
     id: solData[id].id,
@@ -26,6 +28,11 @@ const Solder = ({unitId, remove}) => {
     abilities: solData[id].units[levelId].abilities,
   });
 
+  const quantityCheck = () => {
+    const minimum = solData[id].isMount ? 2 : 3;
+    quantity <= minimum ? setEnabled(false) : setEnabled(true);
+  }
+
   useEffect(()=>{
     setUnitData({
       id: solData[id].id,
@@ -33,6 +40,7 @@ const Solder = ({unitId, remove}) => {
       quantity: quantity,
       experience: solData[id].units[levelId].experience,
       stats: solData[id].units[levelId].stats,
+      isMount: solData[id].isMount ? true : false,
       equipment: Object.entries(solData[id].units[levelId].equipment).reduce((acc, item,) => {
         const name = item[0];
         acc[name] = item[1][0];
@@ -40,6 +48,7 @@ const Solder = ({unitId, remove}) => {
       }, {}),
       abilities: solData[id].units[levelId].abilities,
     })
+    quantityCheck();
   }, [id]);
 
   useEffect(() => {
@@ -58,7 +67,7 @@ const Solder = ({unitId, remove}) => {
 
   useEffect(() => {
     setUnitData({...unitData, quantity});
-    //TODO: добавить проверки количества не меньше 3 для пехоты и не меньше 2 для кав.
+    quantityCheck();
   }, [quantity]);
 
   useEffect(() => {
@@ -70,6 +79,7 @@ const Solder = ({unitId, remove}) => {
 
     const unit = {...unitData};
     unit.sum = sum;
+    setUnitSum(sum);
     dispatch(setSolderUnit({unit, unitId}));
   }, [unitData]);
 
@@ -90,17 +100,22 @@ const Solder = ({unitId, remove}) => {
 
   return (
     <div>
-      <div>
-        <select onChange={checkSolder} name="" id="" className="">
-          {solData.map((data) => (
-            <option key={data.id} value={data.id}>{data.name}</option>
-          ))}
-        </select>
-        <label htmlFor=""></label>
-        <button onClick={() => {setQuantity(quantity - 1)}}>-</button>
-        {quantity}
-        <button onClick={() => {setQuantity(quantity + 1)}}>+</button>
-        <button onClick={remove}>remove</button>
+      <div className="solder__header">
+        <div>
+          <select onChange={checkSolder} name="" id="" className="">
+            {solData.map((data) => (
+              <option key={data.id} value={data.id}>{data.name}</option>
+            ))}
+          </select>
+          <label htmlFor=""></label>
+          <button disabled={!enabled} onClick={() => {setQuantity(quantity - 1)}}>-</button>
+          {quantity}
+          <button onClick={() => {setQuantity(quantity + 1)}}>+</button>
+          <button onClick={remove}>remove</button>
+        </div>
+        <div>
+          Unit cost: {unitSum}
+        </div>
       </div>
       <Attributes levelId={levelId} setEquipment={setEquipment} handleChange={changeLevel} dataAtt={solData[id]}/>
     </div>

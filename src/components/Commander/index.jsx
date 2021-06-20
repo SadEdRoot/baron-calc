@@ -51,9 +51,6 @@ const Commander = () => {
 
   return (
     <div className="commander__root">
-      <div className="commander__header">
-        commander
-      </div>
       <div className="commander__wrap">
         <label htmlFor="comm_select">Choose your commander: </label>
         <select onChange={checkSolder} name="" id="" className="">

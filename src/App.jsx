@@ -5,6 +5,7 @@ import Commander from "./components/Commander";
 import Settings from "./components/Settings";
 import {useDispatch, useSelector} from "react-redux";
 import {setCurPoints} from "./store/pointSlice";
+import Commanders from "./layouts/Commanders/Commanders";
 
 function App() {
   /*
@@ -135,8 +136,7 @@ function App() {
         <h1 className="Header">Army roster</h1>
 
         <Settings />
-        <Commander />
-        <button>add another commander?</button>
+        <Commanders />
         <div className="solders-wrap">
           <Solders />
         </div>
