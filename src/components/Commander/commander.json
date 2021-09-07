@@ -79,7 +79,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry"]
+          "abilities": ["Commander", "Inspire", "Chivalry"]
         },
         {
           "experience": "regular",
@@ -156,7 +156,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry", "Live by the Sword"]
+          "abilities": ["Commander", "Inspire", "Chivalry", "Live by the Sword"]
         },
         {
           "experience": "veteran",
@@ -248,8 +248,8 @@
             "attack": 7,
             "defence": 7,
             "morale": 5,
-            "action": 1,
-            "points": 18
+            "action": 3,
+            "points": 43
           },
           "equipment": {
             "weapon": [
@@ -323,7 +323,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry"]
+          "abilities": ["Commander", "Inspire", "Chivalry"]
         },
         {
           "experience": "regular",
@@ -332,8 +332,8 @@
             "attack": 6,
             "defence": 7,
             "morale": 4,
-            "action": 1,
-            "points": 21
+            "action": 3,
+            "points": 47
           },
           "equipment": {
             "weapon": [
@@ -414,7 +414,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry", "Live by the Sword"]
+          "abilities": ["Commander", "Inspire", "Chivalry", "Live by the Sword"]
         },
         {
           "experience": "veteran",
@@ -423,8 +423,8 @@
             "attack": 5,
             "defence": 7,
             "morale": 3,
-            "action": 1,
-            "points": 27
+            "action": 3,
+            "points": 50
           },
           "equipment": {
             "weapon": [
@@ -505,7 +505,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry", "Live by the Sword"]
+          "abilities": ["Commander", "Inspire", "Chivalry", "Live by the Sword"]
         }
       ]
     },
@@ -521,7 +521,7 @@
             "defence": 7,
             "morale": 4,
             "action": 2,
-            "points": 40
+            "points": 30
           },
           "equipment": {
             "weapon": [
@@ -588,7 +588,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry"]
+          "abilities": ["Commander", "Inspire", "Chivalry"]
         },
         {
           "experience": "regular",
@@ -597,8 +597,8 @@
             "attack": 5,
             "defence": 7,
             "morale": 3,
-            "action": 3,
-            "points": 44
+            "action": 2,
+            "points": 34
           },
           "equipment": {
             "weapon": [
@@ -665,7 +665,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry", "Live by the Sword"]
+          "abilities": ["Commander", "Inspire", "Chivalry", "Live by the Sword"]
         },
         {
           "experience": "veteran",
@@ -675,7 +675,7 @@
             "defence": 7,
             "morale": 2,
             "action": 3,
-            "points": 47
+            "points": 37
           },
           "equipment": {
             "weapon": [
@@ -758,7 +758,7 @@
             "defence": 7,
             "morale": 5,
             "action": 1,
-            "points": 18
+            "points": 33
           },
           "equipment": {
             "weapon": [
@@ -832,7 +832,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry"]
+          "abilities": ["Commander", "Inspire", "Chivalry"]
         },
         {
           "experience": "regular",
@@ -842,7 +842,7 @@
             "defence": 7,
             "morale": 4,
             "action": 1,
-            "points": 21
+            "points": 37
           },
           "equipment": {
             "weapon": [
@@ -923,7 +923,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry", "Live by the Sword"]
+          "abilities": ["Commander", "Inspire", "Chivalry", "Live by the Sword"]
         },
         {
           "experience": "veteran",
@@ -933,7 +933,7 @@
             "defence": 7,
             "morale": 3,
             "action": 1,
-            "points": 27
+            "points": 40
           },
           "equipment": {
             "weapon": [
@@ -1014,7 +1014,7 @@
               }
             ]
           },
-          "abilities": ["Chivalry", "Live by the Sword"]
+          "abilities": ["Commander", "Inspire", "Chivalry", "Live by the Sword"]
         }
       ]
     },
@@ -1023,89 +1023,55 @@
       "name": "veteran sergeant",
       "units": [
         {
-          "experience": "green",
-          "stats": {
-            "movement": 6,
-            "attack": 8,
-            "defence": 7,
-            "morale": 6,
-            "action": 1,
-            "points": 9
-          },
-          "equipment": {
-            "weapon": [
-              {
-                "name": "hand weapon",
-                "attModifier": 0,
-                "points": 0
-              },
-              {
-                "name": "sling",
-                "attModifier": 0,
-                "points": 1,
-                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
-              },
-              {
-                "name": "spear",
-                "attModifier": 0,
-                "points": 1,
-                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
-              },
-              {
-                "name": "improvised two handed weapon",
-                "attModifier": -1,
-                "points": 3,
-                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
-              }
-            ],
-            "shield": [
-              {
-                "name": "none",
-                "points": 0
-              },
-              {
-                "name": "small shield",
-                "points": 2,
-                "effect": "9+ Shield roll"
-              }
-            ]
-          },
-          "abilities": ["Sorry m'lord"]
-        },
-        {
           "experience": "irregular",
           "stats": {
             "movement": 6,
             "attack": 7,
             "defence": 7,
             "morale": 5,
-            "action": 1,
-            "points": 12
+            "action": 2,
+            "points": 29
           },
           "equipment": {
             "weapon": [
               {
-                "name": "hand weapon",
-                "attModifier": 0,
-                "points": 0
+                "name": "falchion",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
-                "name": "sling",
-                "attModifier": 0,
-                "points": 1,
-                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+                "name": "mace",
+                "attModifier": -1,
+                "points": -1,
+                "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "spear",
-                "attModifier": 0,
-                "points": 1,
+                "attModifier": 1,
+                "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
-                "name": "improvised two handed weapon",
-                "attModifier": -1,
-                "points": 3,
-                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+                "name": "bill",
+                "attModifier": 0,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "attModifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "defModifier": -1,
+                "moveModifier": -1,
+                "effect": "-1 Movement"
               }
             ],
             "shield": [
@@ -1114,70 +1080,189 @@
                 "points": 0
               },
               {
-                "name": "small shield",
-                "points": 2,
-                "effect": "9+ Shield roll"
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
               }
             ]
           },
-          "abilities": ["Sorry m'lord"]
+          "abilities": ["Commander", "Inspire", "Martial Respect"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 2,
+            "points": 32
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "attModifier": 1,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "attModifier": 0,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "attModifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "defModifier": -1,
+                "moveModifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Commander", "Inspire", "Martial Respect"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 2,
+            "points": 35
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "attModifier": 1,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "bill",
+                "attModifier": 0,
+                "points": 2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "attModifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "defModifier": -1,
+                "moveModifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ]
+          },
+          "abilities": ["Commander", "Inspire", "Martial Respect"]
         }
       ]
     },
     {
       "id": 5,
       "name": "mounted veteran sergeant",
+      "isMount": true,
       "units": [
-        {
-          "experience": "green",
-          "stats": {
-            "movement": 6,
-            "attack": 8,
-            "defence": 7,
-            "morale": 6,
-            "action": 1,
-            "points": 9
-          },
-          "equipment": {
-            "weapon": [
-              {
-                "name": "hand weapon",
-                "attModifier": 0,
-                "points": 0
-              },
-              {
-                "name": "sling",
-                "attModifier": 0,
-                "points": 1,
-                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
-              },
-              {
-                "name": "spear",
-                "attModifier": 0,
-                "points": 1,
-                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
-              },
-              {
-                "name": "improvised two handed weapon",
-                "attModifier": -1,
-                "points": 3,
-                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
-              }
-            ],
-            "shield": [
-              {
-                "name": "none",
-                "points": 0
-              },
-              {
-                "name": "small shield",
-                "points": 2,
-                "effect": "9+ Shield roll"
-              }
-            ]
-          },
-          "abilities": ["Sorry m'lord"]
-        },
         {
           "experience": "irregular",
           "stats": {
@@ -1185,33 +1270,49 @@
             "attack": 7,
             "defence": 7,
             "morale": 5,
-            "action": 1,
-            "points": 12
+            "action": 2,
+            "points": 32
           },
           "equipment": {
             "weapon": [
               {
-                "name": "hand weapon",
-                "attModifier": 0,
-                "points": 0
+                "name": "falchion",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
               },
               {
-                "name": "sling",
-                "attModifier": 0,
-                "points": 1,
-                "effect": "10\u0022 range. Quick shot - can fire twice if stationary. May move full move distance and fire once."
+                "name": "mace",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "BLUNT TRAUMA"
               },
               {
                 "name": "spear",
                 "attModifier": 0,
-                "points": 1,
+                "points": -2,
                 "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
               },
               {
-                "name": "improvised two handed weapon",
-                "attModifier": -1,
-                "points": 3,
-                "effect": "SLOW - Will always act second if counter Attacked. Cannot equip shield with this weapon"
+                "name": "crossbow",
+                "attModifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              },
+              {
+                "name": "bow",
+                "attModifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "defModifier": -1,
+                "moveModifier": -1,
+                "effect": "-1 Movement"
               }
             ],
             "shield": [
@@ -1220,13 +1321,214 @@
                 "points": 0
               },
               {
-                "name": "small shield",
-                "points": 2,
-                "effect": "9+ Shield roll"
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "Horse",
+                "points": 0,
+                "moveModifier": 3
               }
             ]
           },
-          "abilities": ["Sorry m'lord"]
+          "abilities": ["Commander", "Inspire", "Martial Respect"]
+        },
+        {
+          "experience": "regular",
+          "stats": {
+            "movement": 6,
+            "attack": 6,
+            "defence": 7,
+            "morale": 4,
+            "action": 2,
+            "points": 35
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "attModifier": 0,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "attModifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              },
+              {
+                "name": "bow",
+                "attModifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "defModifier": -1,
+                "moveModifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "Horse",
+                "points": 0,
+                "moveModifier": 3
+              },
+              {
+                "name": "Barded Horse",
+                "points": 2,
+                "moveModifier": 3,
+                "defModifier": -1
+              }
+            ]
+          },
+          "abilities": ["Commander", "Inspire", "Martial Respect"]
+        },
+        {
+          "experience": "veteran",
+          "stats": {
+            "movement": 6,
+            "attack": 5,
+            "defence": 7,
+            "morale": 3,
+            "action": 2,
+            "points": 38
+          },
+          "equipment": {
+            "weapon": [
+              {
+                "name": "falchion",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "SLASHING - Target suffers -1 to Defence rolls if unarmoured or wearing leather/padded"
+              },
+              {
+                "name": "mace",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "BLUNT TRAUMA"
+              },
+              {
+                "name": "sword",
+                "attModifier": -1,
+                "points": 0,
+                "effect": "PARRY - Gain an extra Defence dice against sword, mace or hand weapon"
+              },
+              {
+                "name": "spear",
+                "attModifier": 0,
+                "points": -2,
+                "effect": "REACH - Cannot counter Attack against spear/bill unless armed with spear/bill"
+              },
+              {
+                "name": "crossbow",
+                "attModifier": [0, -1],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range. Slow - will always act second if counter Attacked. Bodkin -ignore one Defence die if target is wearing mail at shot range. Causes shock at short range if 25% casualties are caused"
+              },
+              {
+                "name": "bow",
+                "attModifier": [1, 0],
+                "points": 0,
+                "effect": "Long up 20\"/short up 10\" range. Can move 3\" and shot at short range"
+              }
+            ],
+            "armour": [
+              {
+                "name": "leather/padded",
+                "points": 0,
+                "defModifier": -1,
+                "moveModifier": -1,
+                "effect": "-1 Movement"
+              },
+              {
+                "name": "mail",
+                "points": 1,
+                "moveModifier": -2,
+                "defModifier": -2,
+                "effect": "-2 Movement"
+              }
+            ],
+            "shield": [
+              {
+                "name": "none",
+                "points": 0
+              },
+              {
+                "name": "medium shield",
+                "points": 3,
+                "effect": "8+ Shield roll"
+              },
+              {
+                "name": "large shield",
+                "points": 5,
+                "effect": "7+ Shield roll"
+              }
+            ],
+            "horse": [
+              {
+                "name": "horse",
+                "points": 0,
+                "moveModifier": 3
+              },
+              {
+                "name": "barded horse",
+                "points": 2,
+                "moveModifier": 3,
+                "defModifier": -1
+              }
+            ]
+          },
+          "abilities": ["Commander", "Inspire", "Martial Respect"]
         }
       ]
     }
