@@ -1,21 +1,22 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const commanderSlice = createSlice({
-  name: 'solders',
+  name: 'command',
   initialState: [],
   reducers: {
-    setSolder: (state, action) =>
-      state = [...state, action.payload],
-    removeSolderId: (state, action) =>
+    setCommand: (state, action) =>
+      {console.log(action.payload);
+      return state = [...state, action.payload]},
+    removeCommandId: (state, action) =>
       state = state.filter((el) => el.id !== action.payload),
-    setSolderUnit: (state, action) => {
+    setCommandUnit: (state, action) => {
       void(state[state.findIndex((el) => el.id === action.payload.unitId)].unit = action.payload.unit)},
-    setSolderData: (state, action) =>
+    setCommandData: (state, action) =>
       void(state[action.payload.unitId].unit.data.equipment = action.payload.data),
   }
 })
 
 
-export const {} = commanderSlice.actions
+export const {setCommand, removeCommandId, setCommandUnit, setCommandData} = commanderSlice.actions
 
 export default commanderSlice.reducer
